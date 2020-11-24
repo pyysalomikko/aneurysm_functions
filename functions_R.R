@@ -1,5 +1,5 @@
 location_p_values <- function(names, case, control) {
-  require(MASS) #load MASS
+  require(MASS) #load MASS package
   fisher_p_values <- numeric(0) #create empty vector
   chi_p_values <- numeric(0) #create empty vector
 
